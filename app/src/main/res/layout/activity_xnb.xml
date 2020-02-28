@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@drawable/shape_style_03" />
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/back_w" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text="虚拟币中心"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape_stroke_bottom_yinying"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/ivContent01"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        fresco:roundAsCircle="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="虚拟币数量：100"
+                        android:textColor="@color/textTitle"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1px"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tvXnbDetails"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/xnb_detials"
+                        android:drawableRight="@drawable/go_right"
+                        android:drawablePadding="5dp"
+                        android:paddingHorizontal="5dp"
+                        android:text="消费明细"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:text="完成相应任务即可领取海量虚拟币，虚拟币能完成相应任务即可领取海量虚拟币，虚拟币能" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="20dp"
+            android:drawableLeft="@drawable/xnb_lin"
+            android:drawableRight="@drawable/xnb_lin_r"
+            android:drawablePadding="10dp"
+            android:text="热门获取途径"
+            android:textColor="#24253D"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="190dp"
+            android:layout_height="237dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/saoma" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="扫码立即下载"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="77dp"
+                android:background="@color/gra0" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="推广一名好友立即获取20虚拟币，好友推好友立即赠送10虚拟币（上不封顶）0"
+            android:textColor="@color/textTitle"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:background="@drawable/ewm_bg"
+                android:gravity="center"
+                android:text="保存二维码" />
+
+            <TextView
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:background="@drawable/copy_linck"
+                android:text="复制推广链接" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

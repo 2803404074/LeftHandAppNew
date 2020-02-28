@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/mAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            app:elevation="0dp">
+
+            <RelativeLayout
+                app:layout_scrollFlags="scroll"
+                android:layout_width="match_parent"
+                android:layout_height="280dp">
+
+                <ImageView
+                    android:id="@+id/ivTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#FF352E"
+
+                    />
+                <LinearLayout
+                    android:layout_above="@+id/llTop"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:textSize="23sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LUXU系列"/>
+                    <TextView
+                        android:id="@+id/mMTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/white"
+                        android:text="令人浮想联翩"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llTop"
+                    android:background="@drawable/shape_w_top_left_right"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingHorizontal="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="简介"
+                        android:textStyle="bold"
+                        android:textColor="@color/textTitle"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/textTitleOld"
+                        android:text="别样的异国风情，唯美的体感就是美～别样的别样的异国风情，唯美的体感就是美～别样的"/>
+
+
+                </LinearLayout>
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#E0E0E1"/>
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/mToolbar"
+                android:text="相关影片"
+                android:paddingTop="25dp"
+                android:paddingHorizontal="15dp"
+                android:paddingBottom="10dp"
+                android:gravity="center|left"
+                android:textSize="16sp"
+                android:textColor="@color/textTitle"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                app:layout_collapseMode="pin"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#E0E0E1"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/mRecyclerView"
+                android:background="@color/white"
+                android:paddingHorizontal="8dp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</layout>

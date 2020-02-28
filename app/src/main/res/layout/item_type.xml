@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="欧美"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/textTitle"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/my_love"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_weight="1"/>
+            <TextView
+                android:textSize="12sp"
+                android:textColor="#9092A5"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看更多"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/go_sanj"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            fresco:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            fresco:spanCount="2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</layout>

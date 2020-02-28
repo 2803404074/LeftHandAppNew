@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="25dp"/>
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content">
+
+            <com.zhutian.baselibrary.ui.indicator.DynamicPagerIndicator
+                android:id="@+id/mDpi"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                app:indicatorLineEndColor="#507FFF"
+                app:indicatorLineHeight="3dp"
+                app:indicatorLineRadius="2dp"
+                app:indicatorLineScrollMode="dynamic"
+                app:indicatorLineStartColor="#9653FE"
+                app:indicatorLineWidth="15dp"
+                app:pagerIndicatorMode="scrollable_center"
+                app:tabNormalTextColor="#9092A5"
+                app:tabNormalTextSize="16sp"
+                app:tabSelectedTextColor="@color/textTitle"
+                app:tabSelectedTextSize="18sp"
+                app:tabTextColorMode="gradient" />
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back_black" />
+        </RelativeLayout>
+
+       <androidx.viewpager.widget.ViewPager
+           android:id="@+id/mViewPager"
+           android:background="#F5F7F9"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</layout>

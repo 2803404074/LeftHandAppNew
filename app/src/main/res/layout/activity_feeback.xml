@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F7F9"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingHorizontal="10dp"
+            android:layout_height="65dp">
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/back_black" />
+
+            <TextView
+                android:textColor="#24253D"
+                android:layout_width="wrap_content"
+               android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content"
+                android:text="意见反馈"/>
+        </RelativeLayout>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="我遇到的问题"
+           android:textSize="16sp"
+           android:textStyle="bold"
+           android:layout_margin="15dp"
+           android:textColor="@color/textTitle"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            android:paddingHorizontal="7dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_stroke_bottom_yinying"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="详情描述（必填）"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_margin="15dp"
+                android:textColor="@color/textTitle"/>
+            <EditText
+                android:id="@+id/etContent"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="left|start"
+                android:background="@null"
+                android:paddingHorizontal="20dp"
+                android:hint="请详细描述遇到的问题，以便我们即使解决！（10-100字）"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvCommit"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:layout_height="wrap_content"
+            android:text="提交反馈"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_style_04"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+</layout>

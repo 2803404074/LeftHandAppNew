@@ -1,0 +1,98 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    api 'androidx.core:core-ktx:1.2.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //okhttp、retrofit、rxjava
+    api 'com.squareup.okhttp3:okhttp:4.2.2'
+    api 'com.squareup.retrofit2:retrofit:2.3.0'
+    api 'com.squareup.retrofit2:converter-gson:2.3.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    api 'io.reactivex.rxjava2:rxjava:2.1.9'
+
+    //放着没有及时回收造成RxJava内存泄漏
+    api 'com.trello.rxlifecycle2:rxlifecycle-components:2.1.0'
+    api 'android.arch.lifecycle:extensions:1.1.1'
+
+    //Room的依赖引用
+    api 'android.arch.persistence.room:runtime:2.1.4'
+    annotationProcessor 'android.arch.persistence.room:compiler:2.1.4'
+
+    //Room配合RxJava使用
+    api 'android.arch.persistence.room:rxjava2:2.1.4'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.2'
+
+    //广告banner
+    api 'com.youth.banner:banner:1.4.10'
+
+    //底部弹窗
+    api 'com.github.rey5137:material:1.2.2'
+
+    //glide
+    api 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+
+    api 'com.google.android.material:material:1.1.0'
+
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.0-beta11'
+
+    api 'com.github.ybq:Android-SpinKit:1.4.0'
+
+    api 'com.facebook.fresco:fresco:0.14.1'
+
+    //数据库相关room
+    // Room
+    api 'android.arch.persistence.room:common:1.1.1'
+    api 'android.arch.persistence.room:runtime:1.1.1'
+    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
+    testImplementation 'android.arch.persistence.room:testing:1.1.1'
+
+    api 'com.android.support:multidex:1.0.3'
+
+
+    //屏幕适配
+    api 'me.jessyan:autosize:1.1.2'
+
+
+    //粒子扩散
+    api 'com.ifadai:particlesmasher:1.0.1'
+
+    //动画弹出框
+    api 'com.github.f0ris.sweetalert:library:1.5.1'
+
+    //html
+    api 'com.just.agentweb:agentweb:2.0.0'
+
+    //侧滑返回
+    api 'com.youngfeng.android:snake-androidx:0.4.1'
+    kapt 'com.youngfeng.android:snake-compiler-androidx:0.4.1'
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_marginHorizontal="7dp"
+        android:layout_marginVertical="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="无法播放"
+        android:clickable="false"
+        android:textColor="@color/textTitle"
+        android:textSize="14sp"
+        android:paddingVertical="7dp"
+        android:background="@drawable/shape_style_04_w"
+        android:button="@null"/>
+
+</layout>

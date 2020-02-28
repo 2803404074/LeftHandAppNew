@@ -1,0 +1,107 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply from: 'tinkerpatch.gradle'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.zhutian.lefthand"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a"
+        }
+    }
+
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            keyPassword '1008611'
+            storeFile file('F:/android-key/db-key.jks')
+            storePassword '1008611'
+        }
+    }
+
+
+    buildTypes {
+        release {
+            debuggable false
+            signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
+        }
+    }
+
+    dataBinding {
+        //noinspection DataBindingWithoutKapt
+        enabled true
+    }
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+
+    kotlinOptions { jvmTarget = 1.8 }
+
+    //去除清单文件的警告
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+
+        disable 'GoogleAppIndexingWarning'
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'LiteAVSDK_Player', ext: 'aar')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    implementation project(path: ':baselibrary')
+    implementation project(path: ':player')
+    implementation project(path: ':libsuperplayer')
+
+
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.2.1'
+    implementation 'androidx.navigation:navigation-ui:2.2.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.2.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.2.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+
+    implementation 'com.github.ctiao:DanmakuFlameMaster:0.5.3'
+
+
+    implementation("com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8")
+}

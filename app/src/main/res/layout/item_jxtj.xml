@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <!--专栏-》精选推荐item-->
+    <RelativeLayout
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="15dp"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+        <com.zhutian.baselibrary.ui.widget.RoundAngleImageView
+            android:id="@+id/mImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:radioLeftTop="8dp"
+            app:radioRightTop="8dp" />
+
+        <LinearLayout
+            android:layout_below="@+id/mImage"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:clipChildren="false"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:background="@drawable/shape_black_bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_marginLeft="14dp"
+                android:text="啊啊啊啊啊"
+
+                android:background="@drawable/shape_style_03"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:gravity="center"
+                android:layout_marginLeft="14dp"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:text="AV届“奥斯卡”颁奖…"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:textSize="16sp"
+            android:visibility="invisible"
+            android:background="@drawable/shape_style_04"
+            android:textColor="@color/white"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="3dp"
+            android:layout_above="@+id/tvVersion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小撸怡情，大撸灰飞烟灭"/>
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="左手App"
+            android:textStyle="bold"
+            android:textColor="@color/text0"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+</layout>

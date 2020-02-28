@@ -1,0 +1,73 @@
+<com.zhutian.baselibrary.ui.indicator.DynamicPagerIndicator
+                android:id="@+id/mDpi"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                app:indicatorLineHeight="3dp"
+                android:paddingBottom="3dp"
+                app:indicatorLineRadius="2dp"
+                app:indicatorLineWidth="15dp"
+                app:pagerIndicatorMode = "scrollable"
+                app:indicatorLineScrollMode="dynamic"
+                app:indicatorLineEndColor="@color/white"
+                app:indicatorLineStartColor="@color/colorW"
+                app:tabNormalTextColor="@color/colorWhiteLick"
+                app:tabSelectedTextColor="@color/colorW"
+                app:tabNormalTextSize="16sp"
+                app:tabSelectedTextSize="19sp"
+                app:tabTextColorMode="gradient"/>
+
+
+
+                 mBinding.mViewPager.adapter =
+                            DynamicFragmentPagerAdapter(childFragmentManager, mViewModel.createFragments(7), list)
+                        mBinding.mDpi.viewPager = mBinding.mViewPager
+                        mBinding.mViewPager.currentItem = 1
+                        mBinding.mDpi.setOnOutPageChangeListener(object :
+                            DynamicPagerIndicator.OnOutPageChangeListener {
+                            override fun onPageSelected(position: Int) {
+                                when (position) {
+                                    0 -> {
+                                        mBinding.llTop.setBackgroundResource(R.drawable.shape_style_06)
+                                        animation.targetWidth =
+                                            ScreenUtils.dp2px(this@OneFragment.requireContext(),  250F).toInt()
+                                        animation.duration = 500
+                                        mBinding.include.startAnimation(animation)
+
+                                        animation.callBack = object : ViewSizeChangeAnimo.AnimoCallBack {
+                                            override fun end() {
+                                                mBinding.ivZhuan.visibility = VISIBLE
+                                            }
+                                        }
+                                    }
+                                    1 -> {
+                                        mBinding.llTop.setBackgroundResource(R.drawable.shape_style_02)
+                                        animation.targetWidth =
+                                            ScreenUtils.dp2px(this@OneFragment.requireContext(), 250F).toInt()+100
+                                        animation.duration = 500
+                                        mBinding.include.startAnimation(animation)
+
+                                        animation.callBack = object : ViewSizeChangeAnimo.AnimoCallBack {
+                                            override fun end() {
+                                                mBinding.ivZhuan.visibility = GONE
+                                            }
+                                        }
+                                    }
+                                    2 -> mBinding.llTop.setBackgroundResource(R.drawable.shape_style_03)
+                                    3 -> mBinding.llTop.setBackgroundResource(R.drawable.shape_style_04)
+                                    4 -> mBinding.llTop.setBackgroundResource(R.drawable.shape_style_05)
+                                    else -> mBinding.llTop.setBackgroundResource(R.drawable.shape_style_05)
+                                }
+                            }
+
+                            override fun onPageScrollStateChanged(state: Int) {
+
+                            }
+
+                            override fun onPageScrolled(
+                                position: Int,
+                                positionOffset: Float,
+                                positionOffsetPixels: Int
+                            ) {
+
+                            }
+                        })

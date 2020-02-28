@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.tencent.liteav.demo.play.SuperPlayerView
+            android:id="@+id/superVodPlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="221dp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:fillViewport="true"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <include
+                    android:id="@+id/mIncludeVideo"
+                    layout="@layout/definition_layout"/>
+
+
+
+                <LinearLayout
+                    android:id="@+id/llTitle"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginHorizontal="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textTitle"
+                        android:textSize="16sp"
+                        android:text="两个可爱的华裔美眉伺候洋干爹～"/>
+                    <ImageView
+                        android:id="@+id/ivSanJia"
+                        android:layout_width="20dp"
+                        android:padding="5dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/daosanjiao"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingHorizontal="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.5"
+                        android:textColor="@color/main02"
+                        android:drawablePadding="3dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="15dp"
+                        android:text="2019-08-14"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="番号：JU00023"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llAni"
+                    android:visibility="gone"
+                    android:paddingHorizontal="14dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <TextView
+                        android:textColor="@color/textTitleSun"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="简介：两个可爱的华裔美眉伺候洋干爹两个可爱的华裔美眉伺候洋干爹两个可爱的华裔美眉伺候洋干爹"/>
+
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textSize="13sp"
+                            android:textColor="@color/textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="标签:"/>
+                        <com.zhutian.baselibrary.ui.widget.ShowButtonLayout
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:drawablePadding="5dp"
+
+                        android:textColor="@color/textTitleOld"
+                        android:text="意见反馈"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1px"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:layout_marginRight="20dp"
+                        android:drawablePadding="5dp"
+
+                        android:textColor="@color/textTitleOld"
+                        android:text="收藏"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/share_h"
+                        android:textColor="@color/textTitleOld"
+                        android:text="分享"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginHorizontal="14dp"
+                    android:background="@color/textTitleOld"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="猜你喜欢"
+                    android:textSize="16sp"
+                    android:textColor="@color/textTitle"
+                    android:layout_marginLeft="14dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/mRecyclerView"
+                    android:paddingHorizontal="14dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+</layout>

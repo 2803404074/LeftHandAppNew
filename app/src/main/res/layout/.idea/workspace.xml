@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4ed6d63-9054-4380-9ebb-acb0ca9c3d40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../libs/LiteAVSDK_Player.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/MovieDetailsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/MovieDetailsActivityCopy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/RegisterActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/ResetPassActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/SearchActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/vm/LoginVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/vm/MovieDetailsVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/vm/RegisterVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/vm/ResetPassVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/activity/vm/SearchVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/comment/service/HideService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/home/activity/AllTypeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/home/activity/HighTypeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/home/activity/vm/AllTypeVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/home/activity/vm/HighTypeVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/main/activity/AdvertActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/main/activity/WellComActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/main/vm/WellComModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/ArcView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/ExtensionActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/FeeBackActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/HistoryActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/LoveActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/MessActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/XnbActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/XnbDetailsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/vm/ExtensionVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/vm/FeeBackVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/vm/HistoryVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/vm/LoveVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/vm/MessVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/vm/XnbDetailsVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/activity/vm/XnbVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/fragment/HistoryFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/fragment/MessFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/fragment/NoticeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/fragment/vm/HistoryFgVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/fragment/vm/MessFragVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/my/fragment/vm/NoticeVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/AdultActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/HotsLabelActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/HotsLadyActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/RecommendActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/SpecialDetailsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/vm/AdultVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/vm/HotsLabelVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/vm/HotsLadyVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/vm/RecommendVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/zhutian/lefthand/specialcolumn/activity/vm/SpecialDetailsVm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../color/bottom_navigation_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../color/txt_select.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/cb_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/cb_un_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/copy_linck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/daosanjiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/ewm_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/go_sanj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/home_shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/home_shape_sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/laba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/likes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/login_pass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/login_phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/love_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/main_bottom_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/my_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/my_history.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/my_love.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/my_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/my_opinion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/my_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/my_tuiguang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/my_xnb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/notice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/saoma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/see.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/tt11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/tt33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/xing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/xnb_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/xnb_details_item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/xnb_detials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/xnb_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/xnb_lin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/xnb_lin_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/check_box_select.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/check_select.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/lunch_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_adult.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_all_type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_extension.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_feeback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_high_type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_histroy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_hots_label.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_hots_lady.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_love.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_mess.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_movie_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_recommend.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_resetpass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_special_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_wellcom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_wellcom_t.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_xnb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_xnb_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/definition_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dialog_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dialog_logout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dialog_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dialog_xnb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_channel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_my.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_adult.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_adult_title.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_all_type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_channel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_channel_sun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_high_type_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_hots_label.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_lady.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_live_all.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_mess.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_news.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_notice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_series.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_special_about_tow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_special_about_tow_check.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item_xnb_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_recy_level.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_footer_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-xhdpi/my_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-xxhdpi/my_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/basehttp/BaseCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/basehttp/BaseNetWork.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/basehttp/HttpHeadBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/basehttp/JiaMiUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/baseview/AnimationActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/baseview/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/exeption/MyCrashHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/model/BannerMo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/model/LiveMo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/model/TitleMo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/model/TitleMoSun.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/projectmodel/BaseListMo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/projectmodel/MessListMo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/projectmodel/TouristMo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/ui/anim/HiddenAnimUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/ui/widget/HomeScrollView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/ui/widget/RoundAngleImageView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/ui/widget/RoundImageView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/ui/widget/ShowButtonLayout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/ui/widget/ShowButtonLayoutData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/util/AppManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/util/BottomDialogUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/util/Conver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/util/DeviceUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/util/DialogUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/util/SPHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/util/StringUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/util/TextColorUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/zhutian/baselibrary/util/ToastUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/anim/activity_fade_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/anim/activity_fade_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/anim/dialog_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/anim/dialog_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/anim/rote_360.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/anim/view_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/anim/view_stay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xhdpi/back_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xxhdpi/back_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xxhdpi/back_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xxhdpi/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xxhdpi/go_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xxhdpi/load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xxhdpi/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xxhdpi/search_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xxhdpi/share_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xxhdpi/time_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_black_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_gray.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_hui.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_or.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_round_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_round_style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_stroke_bottom_yinying.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_stroke_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_stroke_w.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_04_b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_04_w.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_05_z.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_07.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_w_top_left_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/layout/dialog_loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/layout/search_layout_h.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/layout/text_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../androidTest/java/com/tuhao/demo/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/four/fragment/FourFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/four/vm/FourViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/main/activity/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/main/ui/NavHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/main/vm/MainModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/one/fragment/OneFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/one/fragment/RecommendFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/one/fragment/TypeFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/one/vm/OneViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/one/vm/TypeViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/three/fragment/ThreeFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/three/vm/ThreeViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/tow/fragment/TowFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/tow/vm/TowTypeViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/tuhao/demo/tow/vm/TowViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/comment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/dowload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/item_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/item_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/jingj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/my.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/test1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/test2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/test3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/test4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/tuij.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/xiuc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/zhuanj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable/divider_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/divider_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/four_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_special.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_dashboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_excellent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_type.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_type.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item_banner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item_banner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item_jxtj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item_one.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/item_tow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item_special_about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout_recy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/layout_recy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/three_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tow_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../menu/bottom_nav_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/java/com/tuhao/demo/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/androidTest/java/com/tuhao/baselibrary/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/app/MyApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/basehttp/BaseObserver.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/basehttp/BaseResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/basehttp/HttpLogInterceptor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/basehttp/RequestUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/basehttp/ResponseEm.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/basehttp/RetrofitApiService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/basehttp/RetrofitManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/basehttp/RxHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/baseview/BaseActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/baseview/BaseFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/baseview/BaseViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/model/DemoMo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/model/MoreType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/model/TypeMo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/ui/anim/ViewSizeChangeAnimo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/ui/custom/DividerGridItemDecoration.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/ui/indicator/BasePagerTabView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/ui/indicator/DynamicFragmentPagerAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/ui/indicator/DynamicPagerIndicator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/ui/indicator/IPagerTabView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/ui/indicator/PagerTabView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/ui/indicator/ScrollableLine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/ui/indicator/Utils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/BannerUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/BaseDrawable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/GlideImageLoader.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/KickBackAnimator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/MyBaseAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/MyMoreBaseAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/MyViewHolder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/OSUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/SPUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/ScreenUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/SnackBarUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/StatusBarUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/SystemBarTintManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/java/com/tuhao/baselibrary/util/UserHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xhdpi/item_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xhdpi/item_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xhdpi/load_err.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xhdpi/more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable-xhdpi/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/menu_item_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_stroke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_stroke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_05.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_style_05.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_touming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_touming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_white.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_zi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/drawable/shape_zi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/layout/menu_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/layout/search_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/layout/search_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../baselibrary/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../baselibrary/src/test/java/com/tuhao/baselibrary/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-68" />
+    <option name="y" value="18" />
+    <option name="width" value="1935" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="F:/Android-SDK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4ed6d63-9054-4380-9ebb-acb0ca9c3d40" name="Default Changelist" comment="" />
+      <created>1582351598215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582351598215</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-68" y="18" width="1935" height="1047" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.2003163" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

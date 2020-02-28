@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/mTxt"
+        android:text="网络美女"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:layout_marginHorizontal="5dp"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:background="@drawable/shape_touming_width"
+        android:layout_height="wrap_content"/>
+</layout>
+

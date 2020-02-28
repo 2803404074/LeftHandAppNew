@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:id="@+id/rlImg"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="@drawable/shape_round_style">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/notice"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvMessType"
+                android:textSize="13sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/rlImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="意见反馈"/>
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:textSize="10.5sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/tvMessType"
+                android:layout_toRightOf="@+id/rlImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="尊敬的用户您好，针对您反馈的意见我们正在"/>
+
+            <TextView
+                android:id="@+id/tvData"
+                android:textSize="10.5sp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2020-02-12"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="48dp"
+            android:background="#E0E0E1"/>
+
+    </LinearLayout>
+</layout>

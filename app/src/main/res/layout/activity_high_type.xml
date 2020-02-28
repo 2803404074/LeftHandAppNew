@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_above="@+id/mDpi"
+                android:id="@+id/ivBack"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                android:src="@drawable/back_black"/>
+
+            <TextView
+                android:layout_above="@+id/mDpi"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="动漫"/>
+
+
+            <com.zhutian.baselibrary.ui.indicator.DynamicPagerIndicator
+                android:id="@+id/mDpi"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_marginVertical="5dp"
+                app:indicatorLineEndColor="#507FFF"
+                app:indicatorLineHeight="3dp"
+                app:indicatorLineRadius="2dp"
+                app:indicatorLineScrollMode="dynamic"
+                app:indicatorLineStartColor="#9653FE"
+                app:indicatorLineWidth="15dp"
+                app:pagerIndicatorMode="scrollable"
+                app:tabNormalTextColor="#9092A5"
+                app:tabNormalTextSize="16sp"
+                app:tabSelectedTextColor="@color/textTitle"
+                app:tabSelectedTextSize="18sp"
+                app:tabTextColorMode="gradient" />
+
+        </RelativeLayout>
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/mViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+</layout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/mAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            app:elevation="0dp">
+
+            <RelativeLayout
+                app:layout_scrollFlags="scroll"
+                android:layout_width="match_parent"
+                android:layout_height="181dp">
+
+                <ImageView
+                    android:id="@+id/mIvTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="181dp"
+                    android:background="#FF352E" />
+                <LinearLayout
+                    android:layout_above="@+id/mView"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:textSize="23sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LUXU系列"/>
+                    <TextView
+                        android:id="@+id/mMTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/white"
+                        android:text="令人浮想联翩"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/mView"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/shape_w_top_left_right"/>
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/mToolbar"
+                android:text="相关影片"
+                android:paddingTop="25dp"
+                android:paddingHorizontal="15dp"
+                android:paddingBottom="10dp"
+                android:gravity="center|left"
+                android:textSize="16sp"
+                android:textColor="@color/textTitle"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                app:layout_collapseMode="pin"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#E0E0E1"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/mRecyclerView"
+                android:background="@color/white"
+                android:paddingHorizontal="8dp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</layout>
